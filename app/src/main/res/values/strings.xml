@@ -1,3 +1,51 @@
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/tools">
     <string name="app_name">Just Java</string>
+
+    <!--Hint text for name field-->
+    <string name="person_name_hint">Name</string>
+
+    <!--Header text for extra ingredient-->
+    <string name="toppigs">Toppings</string>
+
+    <!--Whipped Cream topping text-->
+    <string name="whipped_cream">Whipped Cream</string>
+
+    <!--Chocolate topping text-->
+    <string name="chocolate">Chocolate</string>
+
+    <!--Header text for number of order-->
+    <string name="quantity">Quantity</string>
+
+    <!--decrement button text-->
+    <string name="minus_button">-</string>
+
+    <!--increment button text-->
+    <string name="plus_button">+</string>
+
+    <!--quantity update text-->
+    <string name="initial_value">0</string>
+
+    <!--Order button text-->
+    <string name="order_button">order</string>
+
+    <!--Email subject text-->
+    <string name="email_subject">JustJava order for <xliff:g id="subject_name" example="Fahim">%s</xliff:g></string>
+
+    <!--Email Body Customer name text-->
+    <string name="customer_name">Name: <xliff:g id="name" example="John">%s</xliff:g></string>
+
+    <!--add whipped cream text-->
+    <string name="add_whipped_cream">Add whipped cream? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+
+    <!--add chocolate text-->
+    <string name="add_chocolate">Add whipped cream? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+
+    <!--add email quantity text-->
+    <string name="quantity_email_text">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+
+    <!--Total price of coffee text-->
+    <string name="total_price">Total: $<xliff:g id="totalPrice" example="10">%d</xliff:g></string>
+
+    <!--thank you text-->
+    <string name="welcome_text">Thank You!</string>
 </resources>
